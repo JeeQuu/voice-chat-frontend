@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "jonas-voice-chat",
+  "name": "jonas-voice-chat-assistant-2024",
   "builds": [
     {
       "src": "**/*",
