@@ -1,0 +1,32 @@
+{
+  "name": "jonas-voice-chat",
+  "version": "1.0.0",
+  "description": "Voice-to-voice chat interface for Jonas's AI Assistant",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000 -c-1",
+    "build": "echo 'Static site - no build needed'",
+    "start": "npx http-server -p 8080",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "voice-chat",
+    "ai-assistant",
+    "speech-recognition",
+    "elevenlabs",
+    "n8n"
+  ],
+  "author": "Jonas",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/jonas-voice-chat.git"
+  },
+  "homepage": "https://jonas-voice-chat.vercel.app"
+} 

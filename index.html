@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎤 Voice Chat with Jonas's AI Assistant</title>
+    <meta name="description" content="Voice-to-voice chat interface for Jonas's AI Assistant">
+    <meta name="theme-color" content="#4A90E2">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎤 Voice Chat with AI Assistant</h1>
+            <p>Speak naturally, get intelligent responses</p>
+        </div>
+        
+        <div class="chat-area">
+            <div class="status" id="status">Ready to chat</div>
+            
+            <div class="voice-control">
+                <button class="voice-btn" id="voiceBtn">🎤</button>
+                <div class="instructions">Click to start talking</div>
+            </div>
+            
+            <div class="loading" id="loading">
+                <div class="loading-dots">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            
+            <div class="error" id="error"></div>
+            
+            <div class="conversation" id="conversation"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
