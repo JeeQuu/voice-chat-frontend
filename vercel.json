@@ -3,7 +3,7 @@
   "name": "jonas-voice-chat",
   "builds": [
     {
-      "src": "index.html",
+      "src": "**/*",
       "use": "@vercel/static"
     }
   ],
@@ -48,10 +48,5 @@
         }
       ]
     }
-  ],
-  "functions": {
-    "app/index.html": {
-      "runtime": "@vercel/static"
-    }
-  }
+  ]
 } 
