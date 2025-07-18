@@ -22,9 +22,8 @@ class VoiceChat {
             return 'http://localhost:5678/webhook/voice-chat';
         }
         
-        // For production, you'll need to update this with your n8n webhook URL
-        // Example: return 'https://your-n8n-instance.com/webhook/voice-chat';
-        return '/webhook/voice-chat';
+        // Production n8n webhook URL
+        return 'https://n8n.jonasquant.com/webhook/voice-chat';
     }
     
     init() {
